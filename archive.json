@@ -1,0 +1,79 @@
+{
+  "magic": "E!vIA5L86J2I",
+  "timestamp": "2021-05-11T00:11:53.726486+00:00",
+  "repo": "MikeBishop/http-extensions",
+  "labels": [
+    {
+      "name": "bug",
+      "description": null,
+      "color": "fc2929"
+    },
+    {
+      "name": "duplicate",
+      "description": null,
+      "color": "cccccc"
+    },
+    {
+      "name": "enhancement",
+      "description": null,
+      "color": "84b6eb"
+    },
+    {
+      "name": "help wanted",
+      "description": null,
+      "color": "159818"
+    },
+    {
+      "name": "invalid",
+      "description": null,
+      "color": "e6e6e6"
+    },
+    {
+      "name": "question",
+      "description": null,
+      "color": "cc317c"
+    },
+    {
+      "name": "wontfix",
+      "description": null,
+      "color": "ffffff"
+    }
+  ],
+  "issues": [],
+  "pulls": [
+    {
+      "number": 1,
+      "id": "MDExOlB1bGxSZXF1ZXN0NDY5MzQ0Njc=",
+      "title": "Proposed text for port changes",
+      "url": "https://github.com/MikeBishop/http-extensions/pull/1",
+      "state": "CLOSED",
+      "author": "MikeBishop",
+      "authorAssociation": "OWNER",
+      "assignees": [],
+      "labels": [],
+      "body": "Recommends clients use caution around transition to less-privileged ports, optionally adding implementation-specific requirements for strong authentication.\n",
+      "createdAt": "2015-10-06T17:46:07Z",
+      "updatedAt": "2021-05-10T19:39:14Z",
+      "baseRepository": "MikeBishop/http-extensions",
+      "baseRefName": "master",
+      "baseRefOid": "0c46f02081c9703acfc9e333d4d87fa91cbca17a",
+      "headRepository": "MikeBishop/http-extensions",
+      "headRefName": "issue73",
+      "headRefOid": "3a2680dd6fd7f86aa427f4435eab76b368d69777",
+      "closedAt": "2015-10-06T17:48:31Z",
+      "mergedAt": null,
+      "mergedBy": null,
+      "mergeCommit": null,
+      "comments": [
+        {
+          "author": "MikeBishop",
+          "authorAssociation": "OWNER",
+          "body": "This is supposed to be a PR for the upstream branch.  Closing and starting over.\n",
+          "createdAt": "2015-10-06T17:48:31Z",
+          "updatedAt": "2015-10-06T17:48:31Z"
+        }
+      ],
+      "reviews": []
+    }
+  ]
+}
