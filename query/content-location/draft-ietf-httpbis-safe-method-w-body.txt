@@ -181,13 +181,14 @@ Table of Contents
    be temporary.
 
    A server MAY create or locate a resource that identifies the query
-   operation for future use.  If the server does so, the server claims
-   that a client can send a GET request to the indicated URI to repeat
-   the query operation just performed without resending the query
-   parameters.  The URI of the resource can be included in the Location
-   header field of the response.  This resource might be temporary; if a
-   future request fails, the client SHOULD retry using the original
-   QUERY resource and the previously submitted parameters again.
+   operation for future use.  If the server does so, the URI of the
+   resource can be included in the Location header field of the
+   response.  This represents a claim that a client can send a GET
+   request to the indicated URI to repeat the query operation just
+   performed without resending the query parameters.  This resource
+   might be temporary; if a future request fails, the client SHOULD
+   retry using the original QUERY resource and the previously submitted
+   parameters again.
 
    The semantics of the QUERY method change to a "conditional QUERY" if
    the request message includes an If-Modified-Since, If-Unmodified-
